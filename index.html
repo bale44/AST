@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abstract Syntax Trees</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8b8e23922e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="top">
+        <h1>Abstract Syntax Trees (AST)</h1>
+      </div>
+      <section>
+        <div class="request-section">
+          <label for="request">Enter your text:</label>
+          <textarea name="request" class="request-area"></textarea>
+        </div>
+        <button class="convert-btn">convert</button>
+        <div class="result-section">
+          <label for="result">Result:</label>
+          <div class="textarea-container">
+            <textarea name="result" class="result-area"></textarea>
+            <button class="copy-btn">
+              <i class="fa-solid fa-copy"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <div><p class="error">Please write a correct object</p></div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
